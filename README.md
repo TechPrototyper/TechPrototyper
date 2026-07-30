@@ -25,6 +25,8 @@ where I work:
 
 ## Habitat
 
+Solution & integration architect by trade — I build systems that stay
+elegant under real-world constraints.
 Linux · Kubernetes (Talos, Flux/GitOps) · Azure · Python.
 Homelab: a K8s cluster with an RTX 5090, an ASUS Ascent GX10 (GB10),
 and more retro hardware than strictly necessary.
