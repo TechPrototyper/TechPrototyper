@@ -12,13 +12,16 @@ The bottleneck on this hardware is never compute — it's memory. So that's
 where I work:
 
 - **KV-cache compression & quantization** on consumer Blackwell
-  (sm_120 / sm_121): NVFP4 today, rotation-based and sub-4-bit paths next —
-  with a soft spot for the hard cases: hybrid attention layouts,
-  heterogeneous head dimensions, calibrated scales.
+  (sm_120 / sm_121): NVFP4 today — rotation-based paths measured (and
+  respectfully shelved), sub-4-bit next — with a soft spot for the hard
+  cases: hybrid attention layouts, heterogeneous head dimensions,
+  calibrated scales.
 - **Upstream first.** I contribute to and validate for
   [vLLM](https://github.com/vllm-project/vllm) and
   [FlashInfer](https://github.com/flashinfer-ai/flashinfer).
   Evidence over opinion: measured, reproducible, disclosed.
+- 📓 **Lab notebook:** [local-ai-lab](https://github.com/TechPrototyper/local-ai-lab)
+  — what I measure, how it turns out, and the recipes it leads to.
 - **Mixed-precision weights, speculative decoding, smart offloading** —
   every technology that turns a 32 GB ceiling from a wall into a
   well-managed budget.
