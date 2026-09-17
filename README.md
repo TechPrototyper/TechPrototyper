@@ -26,6 +26,19 @@ where I work:
   every technology that turns a 32 GB ceiling from a wall into a
   well-managed budget.
 
+## Merged upstream
+
+Receipts, not claims — each of these was reviewed and merged by the project's own maintainers:
+
+- **agentgateway** [#3393](https://github.com/agentgateway/agentgateway/pull/3393) — configurable SSE keep-alive for long-lived MCP streams; shipped in `v1.6.0-alpha.1`
+- **FlashInfer** [#3684](https://github.com/flashinfer-ai/flashinfer/pull/3684) — asymmetric VO-split NVFP4 paged prefill (qk=512 / vo=256) for Gemma-4 on SM120/121, co-authored with [@jethac](https://github.com/jethac)
+- **prismaquant** [#80](https://github.com/RobTand/prismaquant/pull/80) — hybrid linear-attention masking in layer streaming for Qwen3.5/3.6 on transformers ≥ 5.15
+- **jethac/vllm** [#1](https://github.com/jethac/vllm/pull/1) — NVFP4 FA2 per-page KV layout: fixes hybrid-model corruption while keeping full tensor sharing, in the fork behind [vllm-project/vllm#46329](https://github.com/vllm-project/vllm/pull/46329)
+- **mcp-server-devonthink** [#31](https://github.com/dvcrn/mcp-server-devonthink/pull/31) — `createRecord` now returns the reference URL
+- **tpk** [#2](https://github.com/apuder/tpk/pull/2) — Space Invaders for the TRS-80 Model I and Model III (see *Off the clock*)
+
+In review at vllm-project/vllm: [#53977](https://github.com/vllm-project/vllm/pull/53977) · [#53978](https://github.com/vllm-project/vllm/pull/53978) · [#53979](https://github.com/vllm-project/vllm/pull/53979) — speculative-decoding and NVFP4-KV fixes for consumer Blackwell.
+
 ## Habitat
 
 Solution & integration architect by trade — I build systems that stay
